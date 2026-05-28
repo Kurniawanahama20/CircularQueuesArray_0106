@@ -29,6 +29,18 @@ public:
             return;
         }
 
+        //cek apakah antrian kosong
+        if (FRONT == -1)
+        {
+            FRONT = 0;
+            REAR = 0;
+        }
+        else
+        {
+            // jika rear berada di posisi terakhir array, kembali ke awal array
+            
+        }
+
     
     }
 }
